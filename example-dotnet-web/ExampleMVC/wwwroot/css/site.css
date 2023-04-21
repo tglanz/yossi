@@ -20,3 +20,15 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}

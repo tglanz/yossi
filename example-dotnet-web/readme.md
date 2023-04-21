@@ -1,8 +1,8 @@
-Initialize the project
+To initialize and MVC project named ExampleMVC
 
-    dotnet new webapp -o ExampleWebApp --no-https -f net7.0
+    dotnet new mvc -o ExampleMVC --no-https -f net7.0
 
-Wath the application in development
+Watch the application for development
 
     dotnet watch
 
